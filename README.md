@@ -20,3 +20,4 @@
 Este portfólio foi criado para apresentar minha jornada profissional, demonstrar minhas competências técnicas e facilitar o contato com recrutadores e profissionais da área.
 
 🎯 Conecte-se comigo!
+
