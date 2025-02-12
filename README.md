@@ -1,6 +1,6 @@
 # Meu_Website_Portf-lio- Millene Junior
 
-❇️ Este é o meu portfólio profissional, desenvolvido com HTMLe CSS destacando minha experiência em logística, desenvolvimento back-end & front-end e análise de dados.
+🔰 Este é o meu portfólio profissional, desenvolvido com HTMLe CSS destacando minha experiência em logística, desenvolvimento back-end & front-end e análise de dados.
 
 🚀 Tecnologias Utilizadas:
 🔹 HTML5: Estruturação da página
