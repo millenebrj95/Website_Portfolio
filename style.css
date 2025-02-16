@@ -458,14 +458,16 @@ a:hover {
     margin-bottom: 15px; /* Reduzido o espaçamento abaixo */
 }
 
-/* Layout para os cards em linha */
+
+/* Layout para os cards empilhados */
 .outros-links-container {
     display: flex;
-    flex-direction: row; /* Alinha os cards lado a lado */
-    gap: 15px; /* Espaço mais compacto entre os cards */
-    justify-content: space-between; /* Distribui os cards com um espaço igual entre eles */
+    flex-direction: column; /* Alinha os cards um abaixo do outro */
+    gap: 15px; /* Espaço entre os cards */
 }
 
+
+/* Estilo dos cards */
 .conquista-card {
     background: linear-gradient(to right, #003c79, #29024b);
     color: white;
@@ -473,12 +475,19 @@ a:hover {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    width: 48%; /* Define a largura para que os cards fiquem lado a lado */
+    width: 100%; /* A largura do card ocupa toda a área disponível */
 }
 
+/* Efeito de hover nos cards */
 .conquista-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.outros-links-icon {
+    font-size: 40px;
+    color: #ff8db5;
+    margin-right: 20px;
 }
 
 .conquista-card h3 {
@@ -524,6 +533,7 @@ a:hover {
 .conquista-card .btn-saiba-mais:hover {
     background-color: #292F36;
 }
+
 
 
 /* Estilo das imagens/gif */
