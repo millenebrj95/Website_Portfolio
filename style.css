@@ -446,10 +446,10 @@ a:hover {
 ================================= */
 /* Estilo para a seção Outros Links */
 #outros-links {
-    padding: 30px 20px;
+    padding: 20px;
     background: linear-gradient(135deg, #292F36, #1C1F26);
     border-radius: 8px;
-    text-align: left;
+    text-align: center;
 }
 
 #outros-links h2 {
