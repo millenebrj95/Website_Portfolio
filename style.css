@@ -560,3 +560,110 @@ footer {
     background: linear-gradient(90deg,#a113a1,#5104d9, #380477, #00064e);
     font-size: 14px;
 }
+
+/* ==============================
+   RESPONSIVE STYLES
+================================= */
+
+/* Mobile Devices (up to 600px) */
+@media (max-width: 600px) {
+    header {
+        padding: 15px;
+    }
+    
+    .perfil-img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .cards-projetos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .experiencia-container {
+        grid-template-columns: 1fr;
+    }
+
+    .empresa-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .outros-links-container {
+        flex-direction: column;
+    }
+
+    .conquista-card {
+        width: 100%;
+    }
+
+    .gif-image {
+        width: 150px;
+    }
+}
+
+/* Tablets (601px to 900px) */
+@media (min-width: 601px) and (max-width: 900px) {
+    .cards-projetos {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .experiencia-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .outros-links-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .conquista-card {
+        width: 48%;
+    }
+
+    .gif-image {
+        width: 180px;
+    }
+}
+
+/* Desktop (901px and above) */
+@media (min-width: 901px) {
+    .cards-projetos {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .experiencia-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .outros-links-container {
+        flex-direction: row;
+    }
+
+    .conquista-card {
+        width: 48%;
+    }
+
+    .gif-image {
+        width: 200px;
+    }
+}
+
+/* General Responsive Typography */
+h1 {
+    font-size: clamp(24px, 5vw, 32px);
+}
+
+h2 {
+    font-size: clamp(20px, 4vw, 28px);
+}
+
+p {
+    font-size: clamp(14px, 2.5vw, 16px);
+}
