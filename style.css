@@ -16,7 +16,7 @@ body {
    CABEÇALHO
 ================================= */
 header {
-    background: linear-gradient(90deg,#a113a1,#5104d9, #380477, #00064e);
+    background: linear-gradient(90deg,#3d0046, #380477, #00064e);
     padding: 20px;
     text-align: center;
 }
@@ -68,7 +68,7 @@ section {
     overflow: hidden;
     position: relative;
     width: 100%;
-    background: linear-gradient(90deg,#a113a1,#5104d9, #380477, #00064e);
+    background: linear-gradient(90deg,#3d0046, #380477, #00064e);
     padding: 20px 0;
 }
 
@@ -638,7 +638,7 @@ a:hover {
 footer {
     text-align: center;
     padding: 20px;
-    background: linear-gradient(90deg,#a113a1,#5104d9, #380477, #00064e);
+    background: linear-gradient(90deg,#3d0046, #380477, #00064e);
     font-size: 14px;
 }
 
