@@ -68,7 +68,7 @@ section {
     overflow: hidden;
     position: relative;
     width: 100%;
-    background: linear-gradient(90deg,#3d0046, #380477, #00064e);
+    bbackground: linear-gradient(90deg,#3d0046, #380477, #00064e);
     padding: 20px 0;
 }
 
