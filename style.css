@@ -12,7 +12,6 @@ body {
 }
 
 
-
 /* ==============================
    CABEÇALHO
 ================================= */
@@ -34,7 +33,6 @@ header p {
 }
 
 
-
 /* ==============================
    PERFIL (IMAGEM REDONDA)
 ================================= */
@@ -49,7 +47,6 @@ header p {
 }
 
 
-
 /* ==============================
    SEÇÕES MODERNAS
 ================================= */
@@ -62,40 +59,16 @@ section {
 }
 
 
-
-/* ==============================
-   SOBRE MIM
-================================= */
-
-#sobre {
-    text-align: center;
-    background: linear-gradient(135deg, #292F36, #1C1F26); }
-
-
-
 /* ==============================
    TECNOLOGIAS E FERRAMENTAS
 ================================= */
-#tecnologias {
-    text-align: center;
-    padding: 40px 0;
-    background: linear-gradient(to right, #29024b, #003c79); 
-    border-radius: 8px;
-    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
-}
-
-h2 {
-    color: #ffffff;
-    font-size: 24px;
-    margin-bottom: 20px;
-}
 
 /* Estilo do carrossel */
 .carousel {
     overflow: hidden;
     position: relative;
     width: 100%;
-    background: linear-gradient(to right, #29024b, #003c79);
+    background: linear-gradient(90deg,#a113a1,#5104d9, #380477, #00064e);
     padding: 20px 0;
 }
 
@@ -124,6 +97,18 @@ h2 {
     from { transform: translateX(0); }
     to { transform: translateX(-50%); }
 }
+
+
+/* ==============================
+   SOBRE MIM
+================================= */
+
+#sobre {
+    text-align: center;
+    background: linear-gradient(135deg, #292F36, #1C1F26); }
+
+
+
 
 
 /* ==============================
@@ -226,6 +211,9 @@ h2 {
     text-align: center;
     padding: 50px 20px;
     background: linear-gradient(135deg, #292F36, #1C1F26);
+    /* Adding a similar style to certifications */
+    border-radius: 8px; /* Adding border radius for consistency */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Adding shadow for depth */
 }
 
 #projetos h2 {
@@ -237,7 +225,10 @@ h2 {
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
+    /* Ensuring the projects section aligns like certifications */
+    align-items: flex-start; /* Align items to the start */
 }
+
 
 .card {
     background: linear-gradient(to right, #003c79, #29024b);
