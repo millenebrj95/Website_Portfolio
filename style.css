@@ -37,8 +37,8 @@ header p {
    PERFIL (IMAGEM REDONDA)
 ================================= */
 .perfil-img {
-    width: 130px;
-    height: 130px;
+    width: 150px;
+    height: 200px;
     border-radius: 50%;
     object-fit: cover;
     border: 4px solid #FFFFFF;
@@ -882,3 +882,4 @@ h2 {
 p {
     font-size: clamp(14px, 2.5vw, 16px);
 }
+
