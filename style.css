@@ -163,13 +163,17 @@ h2 {
 .btn-saiba-mais {
     background-color: #d90480;
     color: #ffffff;
-    padding: 8px 16px;
+    padding: 10px 24px;   /* mais espaço interno */
     text-decoration: none;
     border-radius: 5px;
-    font-size: 14px;
-    display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;              /* flex para alinhar */
+    align-items: center;        /* centraliza verticalmente */
+    justify-content: center;    /* centraliza horizontalmente */
     transition: background-color 0.3s ease;
-    margin-top: 15px; /* Espaçamento entre a imagem e o botão */
+    margin: 15px auto;          /* centraliza o botão na tela */
+    width: fit-content;         /* botão só ocupa o espaço do texto */
 }
 
 .btn-saiba-mais:hover {
@@ -882,4 +886,3 @@ h2 {
 p {
     font-size: clamp(14px, 2.5vw, 16px);
 }
-
