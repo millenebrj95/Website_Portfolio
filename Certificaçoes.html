@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Certificações - Millene Júnior</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Ajuste específico para esta página */
+    .certificacao-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 20px;
+        justify-content: center;
+        align-items: stretch;
+        margin-top: 30px;
+    }
+
+    .certificacao-card {
+        background: linear-gradient(to right, #003c79, #29024b);
+        color: white;
+        border-radius: 10px;
+        overflow: hidden;
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .certificacao-card:hover {
+        transform: scale(1.05);
+    }
+
+    .certificacao-card img {
+        width: 100%;
+        height: auto;
+    }
+
+    .certificacao-info {
+        padding: 15px;
+    }
+
+    .certificacao-info h3 {
+        margin: 10px 0;
+        font-size: 18px;
+    }
+
+    .certificacao-info p {
+        font-size: 14px;
+        color: #ccc;
+    }
+
+    .btn-certificado {
+        display: inline-block;
+        margin-top: 10px;
+        padding: 10px 15px;
+        background-color: #d90480;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn-certificado:hover {
+        background-color: #ff5c99;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header>
+    <img src="Imagens/Cabeçalho/FotoPerfil.jpeg" alt="Minha Foto" class="perfil-img">
+    <h1>Millene Júnior</h1>
+    <p>Conheça meus projetos e experiências, conecte-se comigo.</p>
+  </header>
+
+  <!-- Seção Certificações -->
+  <section id="certificacoes">
+    <h2>Minhas Certificações</h2>
+    <div class="certificacao-container">
+
+      <!-- Certificação 1 -->
+      <div class="certificacao-card">
+        <img src="Imagens/Certificações/Python Developer.png" alt="Python Developer">
+        <div class="certificacao-info">
+          <h3>Estruturas Condicionais e de Repetição em Python</h3>
+          <p>Dio.me</p>
+          <a href="Certificações/Estruturas Condicionais e de Repetição em Python.pdf" 
+             target="_blank" class="btn-certificado">Ver Certificado</a>
+        </div>
+      </div>
+
+      <!-- Certificação 2 -->
+      <div class="certificacao-card">
+        <img src="Imagens/Certificações/Introdução a Banco de Dados.webp" alt="Banco de Dados">
+        <div class="certificacao-info">
+          <h3>Introdução a Banco de Dados</h3>
+          <p>Dio.me</p>
+          <a href="Certificações/Introdução a Banco de Dados.pdf" 
+             target="_blank" class="btn-certificado">Ver Certificado</a>
+        </div>
+      </div>
+
+      <!-- Certificação 3 -->
+      <div class="certificacao-card">
+        <img src="Imagens/Certificações/Git e GitHub.webp" alt="Git e GitHub">
+        <div class="certificacao-info">
+          <h3>Contribuindo em um Projeto Open Source no GitHub</h3>
+          <p>Dio.me</p>
+          <a href="Certificações/Contribuindo em um Projeto Open Source no GitHub.pdf" 
+             target="_blank" class="btn-certificado">Ver Certificado</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Botão para voltar -->
+  <div style="text-align:center; margin: 20px;">
+    <a href="index.html" class="btn-veja-todas-certificações">⬅️ Voltar ao Portfólio</a>
+  </div>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>&copy; 2025 Desenvolvido por Millene Junior. Todos os direitos reservados.</p>
+    <strong>Criando soluções inteligentes para um mundo mais conectado e eficiente.🌍💡</strong>
+  </footer>
+
+</body>
+</html>
